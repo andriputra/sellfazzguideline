@@ -1,0 +1,153 @@
+body{
+  margin: 0px;
+  font-family: 'Open Sans',sans-serif;
+  font-size: 14px;
+}
+h1{
+  margin-top: 0px;
+  font-size: 20px;
+  margin-bottom: 0px;
+}
+.title{
+  background: #333333;
+  padding: 10px 20px;
+  color: #ffffff;
+  margin-bottom: 0px;
+}
+.container{
+  width: 100%;
+}
+.sidebar{
+  display: inline-block;
+  width: 245px;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  background-color: #d4d4d4;
+  height: 100%;
+}
+.content{
+  margin-left: 245px;
+  padding: 10px 20px;
+}
+a{
+  text-decoration: none;
+  color: #333333;
+}
+a:hover,
+a.active{
+  color: #fdcb24;
+}
+p{
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+ul{
+  list-style: none;
+  padding-left: 20px;
+}
+ul li{
+  margin-bottom: 10px;
+}
+li a i{
+  margin-right: 5px;
+}
+li a{
+  display: block;
+}
+pre{
+  background-color: #f5f5f5;
+  border: 1px solid #bbbbbb;
+  margin-bottom: 0px;
+}
+.nt{
+  color: #d01010;s
+}
+.cl{
+  color: #2f6f9f;
+}
+.ct{
+  color: #46bd46;
+}
+.output{
+  background: #ffffff;
+  border: 1px solid #bbbbbb;
+  border-bottom-left-radius:4px;
+  border-bottom-right-radius:4px;
+  padding: 20px;
+}
+.title-content{
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+/* FORM */
+.sf-form-group{
+  margin-bottom: 20px;
+}
+label{
+  display: inline-block;
+  max-width: 100%;
+  font-size: 14px;
+  margin-bottom: 6px;
+}
+.sf-form-control{
+  border-color: #e6e6e6;
+  border-width: 1px;
+  border-radius: 4px;
+  padding: 14px 9px;
+  font-size: 14px;
+  display: block;
+  border-style: solid;
+  line-height: 20px;
+  color: #e6e6e6;
+  background: #ffffff;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.sf-has-icon{
+  position: relative;
+}
+.sf-has-icon .sf-icon{
+  position: absolute;
+  top: 38px;
+  right: 15px;
+  z-index: 2;
+  line-height: 24px;
+  text-align: center;
+  pointer-events: none;
+}
+.sf-btn{
+  border-radius: 4px;
+  color: #333333;
+  padding: 13px 32px;
+  display: block;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+.sf-btn-default{
+  background-color: #fdcb24;
+}
+.sf-md{
+  width: 50%;
+  margin: 0 auto;
+}
+.sf-lg{
+  width: 100%;
+}
+/*End  FORM */

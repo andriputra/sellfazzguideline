@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Sellfazz Guideline</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  </head>
+  <body>
+    <div class="container box">
+      <div class="sidebar">
+        <div class="title">
+          <h1>SellFazz Guideline</h1>
+        </div>
+        <div class="navigation">
+          <ul class="nav">
+            <li><a href="#Form"><i class="fa fa-caret-right" aria-hidden="true"></i> Form</a></li>
+            <li><a href="#Font"><i class="fa fa-caret-right" aria-hidden="true"></i> Font</a></li>
+            <li><a href="#Button"><i class="fa fa-caret-right" aria-hidden="true"></i> Button</a></li>
+            <li><a href="#Divider"><i class="fa fa-caret-right" aria-hidden="true"></i> Divider</a></li>
+            <li><a href="#Icon"><i class="fa fa-caret-right" aria-hidden="true"></i> Icon</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="content">
+        <div id="Form" class="box-content">
+          <h1 class="title-content"><i class="fa fa-check-square-o" aria-hidden="true"></i> FORMS</h1>
+          <p>Unuk membuat form content bisa mengikuti dibawah ini</p>
+          <pre>
+            <code>
+              <span class="nt"><</span><span class="nt">div</span> <span class="cl">class=</span><span class="ct">"sf-form-group"</span><span class="nt">></span>
+                <span class="nt"><</span><span class="nt">label</span><span class="nt">></span> <span class="ct">Your Name</span> <span class="nt"><</span><span class="nt">/</span><span class="nt">label></span>
+                <span class="nt"><</span><span class="nt">input</span> <span class="cl">type=</span><span class="ct">"text"</span> <span class="cl">class=</span><span class="ct">"sf-form-control"</span> <span class="cl">placeholder=</span><span class="ct">"Your Type Here"</span><span class="nt">></span>
+              <span class="nt"><</span><span class="nt">/div</span><span class="nt">></span>
+
+              <span class="nt"><</span><span class="nt">div</span> <span class="cl">class=</span><span class="ct">"sf-form-group sf-has-icon"</span><span class="nt">></span>
+                <span class="nt"><</span><span class="nt">label></span> <span class="ct">Password</span> <span class="nt"><</span><span class="nt">/label</span><span class="nt">></span>
+                <span class="nt"><</span><span class="nt">input</span> <span class="cl">type=</span><span class="ct">"password"</span> <span class="cl">class=</span><span class="ct">"sf-form-control"</span> <span class="cl">placeholder=</span><span class="ct">"Insert your password"</span><span class="nt">></span>
+                <span class="nt"><</span><span class="nt">i</span> <span class="cl">class=</span><span class="ct">"sf-icon fa fa-eye"</span><span class="nt">></span><span class="nt"><</span><span class="nt">/</span><span class="nt">i</span><span class="nt">></span>
+              <span class="nt"><</span><span class="nt">/div</span><span class="nt">></span>
+
+              <span class="nt"><</span><span class="nt">button</span> <span class="cl">type=</span><span class="ct">"submit"</span> <span class="cl">class=</span><span class="ct">"sf-btn sf-btn-default sf-md"</span><span class="nt">></span> <span class="cl">Daftar</span><</span class="nt"><span class="nt">/button</span><span class="nt">></span>
+            </code>
+          </pre>
+          <pre>
+            <code>
+              <span class="ct">.sf-form-group{</span>
+                <span class="cl">margin-bottom:</span> <span class="nt">20px;</span>
+              <span class="ct">}</span>
+              <span class="ct">.label{</span>
+                <span class="cl">display:</span> <span class="nt">inline-block;</span>
+                <span class="cl">max-width:</span> <span class="nt">100%;</span>
+                <span class="cl">font-size:</span> <span class="nt">14px;</span>
+                <span class="cl">margin-bottom:</span> <span class="nt">6px;</span>
+              <span class="ct">}</span>
+              <span class="ct">.sf-form-control{</span>
+                <span class="cl">border-color:</span> <span class="nt">#e6e6e6;</span>
+                <span class="cl">border-width:</span> <span class="nt">1px;</span>
+                <span class="cl">border-radius:</span> <span class="nt">4px;</span>
+                <span class="cl">padding:</span> <span class="nt">14px 9px;</span>
+                <span class="cl">font-size:</span> <span class="nt">14px;</span>
+                <span class="cl">display:</span> <span class="nt">block;</span>
+                <span class="cl">border-style:</span> <span class="nt">solid;</span>
+                <span class="cl">line-height:</span> <span class="nt">20px;</span>
+                <span class="cl">color:</span> <span class="nt">#e6e6e6;</span>
+                <span class="cl">background:</span> <span class="nt">#ffffff;</span>
+                <span class="cl">width:</span> <span class="nt">100%;</span>
+                <span class="cl">box-sizing:</span> <span class="nt">border-box;</span>
+              <span class="ct">}</span>
+              <span class="ct">.sf-has-icon</span><span class="ct">{</span>
+                <span class="cl">position:</span> <span class="nt">relative;</span>
+              <span class="ct">}</span>
+              <span class="ct">.sf-has-icon .sf-icon{</span>
+                <span class="cl">position:</span> <span class="nt">absolute;</span>
+                <span class="cl">top:</span> <span class="nt">38px;</span>
+                <span class="cl">right:</span> <span class="nt">15px;</span>
+                <span class="cl">z-index:</span> <span class="nt">2;</span>
+                <span class="cl">line-height:</span> <span class="nt">24px;</span>
+                <span class="cl">text-align:</span> <span class="nt">center;</span>
+                <span class="cl">pointer-events:</span> <span class="nt">none;</span>
+              <span class="ct">}</span>
+              <span class="ct">.sf-btn{</span>
+                <span class="cl">border-radius:</span> <span class="nt">4px;</span>
+                <span class="cl">color:</span> <span class="nt">#333333;</span>
+                <span class="cl">padding:</span> <span class="nt">13px 32px;</span>
+                <span class="cl">display:</span> <span class="nt">block;</span>
+                <span class="cl">margin-bottom:</span> <span class="nt">0;</span>
+                <span class="cl">font-size:</span> <span class="nt">14px;</span>
+                <span class="cl">font-weight:</span> <span class="nt">600;</span>
+                <span class="cl">text-align:</span> <span class="nt">center;</span>
+                <span class="cl">white-space:</span> <span class="nt">nowrap;</span>
+                <span class="cl">vertical-align:</span> <span class="nt">middle;</span>
+                <span class="cl">-ms-touch-action:</span> <span class="nt">manipulation;</span>
+                <span class="cl">touch-action:</span> <span class="nt">manipulation;</span>
+                <span class="cl">cursor:</span> <span class="nt">pointer;</span>
+                <span class="cl">-webkit-user-select:</span> <span class="nt">none;</span>
+                <span class="cl">-moz-user-select:</span> <span class="nt">none;</span>
+                <span class="cl">-ms-user-select:</span> <span class="nt">none;
+                <span class="cl">user-select:</span> <span class="nt">none;
+                <span class="cl">background-image:</span> <span class="nt">none;
+                <span class="cl">border:</span> <span class="nt">1px solid transparent;
+                <span class="cl">border-radius:</span> <span class="nt">4px;
+              <span class="ct">}</span>
+              <span class="ct">.sf-btn-default{</span>
+                <span class="cl">background-color:</span> <span class="nt">#fdcb24;</span>
+              <span class="ct">}</span>
+              <span class="ct">.sf-md{</span>
+                <span class="cl">width:</span> <span class="nt">50%;</span>
+                <span class="cl">margin:</span> <span class="nt">0 auto;</span>
+              <span class="ct">}</span>
+              <span class="ct">.sf-lg{</span>
+                <span class="cl">width:</span> <span class="nt">100%;</span>
+              <span class="ct">}</span>
+            </code>
+          </pre>
+          <div class="output">
+            <div class="sf-form-group">
+              <label>Your Name</label>
+              <input type="text" class="sf-form-control" placeholder="Your Type Here">
+            </div>
+            <div class="sf-form-group sf-has-icon">
+              <label>Password</label>
+              <input type="password" class="sf-form-control" placeholder="Insert your password">
+              <i class="sf-icon fa fa-eye"></i>
+            </div>
+            <button type="submit" class="sf-btn sf-btn-default sf-md">Daftar</button>
+          </div>
+        </div>
+
+        <!-- FONT -->
+        <div id="Font" class="box-content">
+          <h1 class="title-content"><i class="fa fa-check-square-o" aria-hidden="true"></i> FONTS</h1>
+          <p>Unuk membuat form content bisa mengikuti dibawah ini</p>
+        </div>
+        <!-- END FONT -->
+
+        <div id="Button" class="box-content">
+          <p>disini ditulis untuk form</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+<script type="text/javascript">
+$(document).on('click', 'a[href^="#"]', function (event) {
+    event.preventDefault();
+    $('html, body').animate({
+        scrollTop: $($.attr(this, 'href')).offset().top
+    }, 1000);
+});
+</script>
